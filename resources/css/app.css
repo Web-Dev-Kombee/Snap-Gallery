@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+/* Define a single class for the SortableJS ghost element */
+.sortable-ghost {
+    @apply bg-blue-100 opacity-50 rounded border border-blue-300; /* Use Tailwind @apply or regular CSS */
+    /* Or using regular CSS:
+       background-color: #DBEAFE; /* Equivalent to bg-blue-100 */
+       opacity: 0.5;
+       border-radius: 0.25rem;
+       border: 1px solid #93C5FD; /* Equivalent to border-blue-300 */
+  
+}

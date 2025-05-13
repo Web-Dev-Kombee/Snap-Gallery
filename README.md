@@ -143,7 +143,7 @@ SnapGallery is a modern, interactive photo gallery web application built with th
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/Web-Dev-Kombee/Snap-Gallery.git
-    cd SnapGallery
+    cd Snap-Gallery
     ```
   
 
